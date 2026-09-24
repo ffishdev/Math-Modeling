@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex build/example"] 1790229392.25578 "build/example.aux" "build/example.bbl" "build/example" 1790229407.79402 0
+["bibtex build/example"] 1790229392.25578 "build/example.aux" "build/example.bbl" "build/example" 1790231417.55115 0
   "./gmcm.bst" 1790217881.30153 33750 5928f434f6bc88e1bd9e4740e3d3e5e4 ""
   "./reference.bib" 1790137606 1277 8862a3e89a8974478f5e33e38c7a7637 ""
-  "build/example.aux" 1790229407.34658 9725 2aa710e9419c9f53b550b562458de1cf "xelatex"
+  "build/example.aux" 1790231417.08716 9725 2aa710e9419c9f53b550b562458de1cf "xelatex"
   (generated)
   "build/example.bbl"
   "build/example.blg"
   (rewritten before read)
-["xdvipdfmx"] 1790229407.54523 "build/example.xdv" "build/example.pdf" "build/example" 1790229407.79545 0
-  "build/example.xdv" 1790229407.34773 194084 b7dbdeec4ff582386c45f8c08c7ef6ef "xelatex"
+["xdvipdfmx"] 1790231417.26893 "build/example.xdv" "build/example.pdf" "build/example" 1790231417.5524 0
+  "build/example.xdv" 1790231417.08831 194084 6244582c87009ff465bac166e718baf5 "xelatex"
   (generated)
   "build/example.pdf"
   (rewritten before read)
-["xelatex"] 1790229406.38734 "/Users/fish/Documents/Math-Modeling/26-Modeling/004-Paper/example.tex" "build/example.xdv" "example" 1790229407.79407 0
-  "/Users/fish/Documents/Math-Modeling/26-Modeling/004-Paper/example.tex" 1790229406.29931 11849 1e3389792cde382e76d62afb9f97041f ""
+["xelatex"] 1790231416.21195 "/Users/fish/Documents/Math-Modeling/26-Modeling/004-Paper/example.tex" "build/example.xdv" "example" 1790231417.5512 0
+  "/Users/fish/Documents/Math-Modeling/26-Modeling/004-Paper/example.tex" 1790231416.14136 11850 0c527f7d837461faed97b31cb0c3e95a ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -227,11 +227,11 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1790167764 5948561 6abdee7aa40671eabd83936febd8025a ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/example.aux" 1790229407.34658 9725 2aa710e9419c9f53b550b562458de1cf "xelatex"
+  "build/example.aux" 1790231417.08716 9725 2aa710e9419c9f53b550b562458de1cf "xelatex"
   "build/example.bbl" 1790229392.33252 1030 36eef62d9ce11340527ebebe1c4f8e07 "bibtex build/example"
-  "build/example.out" 1790229407.3474 8239 5d4fa248ea6c1255908366987fb10d6a "xelatex"
-  "build/example.toc" 1790229407.34769 6479 2ff55a451c230e6174ef96a065d421c7 "xelatex"
-  "example.tex" 1790229406.29931 11849 1e3389792cde382e76d62afb9f97041f ""
+  "build/example.out" 1790231417.08802 8239 5d4fa248ea6c1255908366987fb10d6a "xelatex"
+  "build/example.toc" 1790231417.08827 6479 2ff55a451c230e6174ef96a065d421c7 "xelatex"
+  "example.tex" 1790231416.14136 11850 0c527f7d837461faed97b31cb0c3e95a ""
   "figures/logo.pdf" 1790137606 366614 a9a15c26f25b5b2d9c539930cb7c0eb4 ""
   "figures/title.pdf" 1790137606 366615 e502ae6c559a78bb46c31de37b046392 ""
   "gmcmthesis.cls" 1790137606 21310 3ae0c8e950706bdb6815a82f0ea305bc ""

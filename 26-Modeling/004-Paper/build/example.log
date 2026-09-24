@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.23)  24 SEP 2026 13:56
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.23)  24 SEP 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1832,113 +1832,113 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 305.
+(hyperref)                removed on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 305.
+(hyperref)                removed on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 309.
+(hyperref)                removed on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 309.
+(hyperref)                removed on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 313.
+(hyperref)                removed on input line 314.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 313.
+(hyperref)                removed on input line 314.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 316.
+(hyperref)                removed on input line 317.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 316.
+(hyperref)                removed on input line 317.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 319.
+(hyperref)                removed on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 319.
+(hyperref)                removed on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 322.
+(hyperref)                removed on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 322.
+(hyperref)                removed on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 325.
+(hyperref)                removed on input line 326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 325.
+(hyperref)                removed on input line 326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 328.
+(hyperref)                removed on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 328.
+(hyperref)                removed on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 337.
+(hyperref)                removed on input line 338.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 337.
+(hyperref)                removed on input line 338.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 340.
+(hyperref)                removed on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 340.
+(hyperref)                removed on input line 341.
 
 (build/example.bbl) [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 364.
+(hyperref)                removed on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 364.
+(hyperref)                removed on input line 365.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
@@ -1966,12 +1966,12 @@ Package fontspec Info:
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 402.
+(hyperref)                removed on input line 403.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 0.60228pt
-(hyperref)                removed on input line 402.
+(hyperref)                removed on input line 403.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
@@ -1992,7 +1992,7 @@ Package fontspec Info:
 (fontspec)             doesn't exist).
 
 LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 12.74046pt on input line 404.
+(Font)              scaled to size 12.74046pt on input line 405.
 
 Package fontspec Info: 
 (fontspec)             Font family 'FangSong(0)' created for font 'FangSong'
@@ -2005,7 +2005,7 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 11.14789pt on input line 404.
+(Font)              scaled to size 11.14789pt on input line 405.
  [11
 
 ] (build/example.aux)
