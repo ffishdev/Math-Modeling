@@ -1,0 +1,3838 @@
+{
+  "method": {
+    "distance": "WGS84 球面 Haversine，地球半径 6371000 m",
+    "dem": "MAT 栅格中心坐标；线段接触的全部闭像元取最大值",
+    "gravity_m_s2": 9.80665,
+    "horizontal_energy": "Euse*d/L(q)，去程 q，返程 0",
+    "climb_energy": "(m0+q)*g*h_up/(eta*3.6e6)",
+    "operation_time": "飞行+固定准备+逐箱装载+基础交接+逐箱交接；不含设备/电池周转"
+  },
+  "geometry": {
+    "S001": {
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "dem_cell_count": 136,
+      "cruise_altitude_m": 273.0566101074219,
+      "out_up_m": 145.3566101074219,
+      "out_down_m": 89.05661010742188,
+      "back_up_m": 89.05661010742188,
+      "back_down_m": 145.3566101074219
+    },
+    "S002": {
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "dem_cell_count": 323,
+      "cruise_altitude_m": 308.9542541503906,
+      "out_up_m": 181.25425415039064,
+      "out_down_m": 89.45425415039062,
+      "back_up_m": 89.45425415039062,
+      "back_down_m": 181.25425415039064
+    },
+    "S003": {
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "dem_cell_count": 338,
+      "cruise_altitude_m": 561.8041381835938,
+      "out_up_m": 434.10413818359376,
+      "out_down_m": 223.30413818359375,
+      "back_up_m": 223.30413818359375,
+      "back_down_m": 434.10413818359376
+    },
+    "S004": {
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "dem_cell_count": 276,
+      "cruise_altitude_m": 398.2391662597656,
+      "out_up_m": 270.53916625976564,
+      "out_down_m": 169.9391662597656,
+      "back_up_m": 169.9391662597656,
+      "back_down_m": 270.53916625976564
+    },
+    "S005": {
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "dem_cell_count": 181,
+      "cruise_altitude_m": 326.410888671875,
+      "out_up_m": 198.710888671875,
+      "out_down_m": 131.410888671875,
+      "back_up_m": 131.410888671875,
+      "back_down_m": 198.710888671875
+    },
+    "S006": {
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "dem_cell_count": 116,
+      "cruise_altitude_m": 366.09783935546875,
+      "out_up_m": 238.39783935546876,
+      "out_down_m": 51.29783935546874,
+      "back_up_m": 51.29783935546874,
+      "back_down_m": 238.39783935546876
+    },
+    "S007": {
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "dem_cell_count": 213,
+      "cruise_altitude_m": 511.9731750488281,
+      "out_up_m": 384.27317504882814,
+      "out_down_m": 163.47317504882812,
+      "back_up_m": 163.47317504882812,
+      "back_down_m": 384.27317504882814
+    },
+    "S008": {
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "dem_cell_count": 321,
+      "cruise_altitude_m": 372.9093322753906,
+      "out_up_m": 245.20933227539064,
+      "out_down_m": 102.00933227539062,
+      "back_up_m": 102.00933227539062,
+      "back_down_m": 245.20933227539064
+    },
+    "S009": {
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "dem_cell_count": 253,
+      "cruise_altitude_m": 293.2289123535156,
+      "out_up_m": 165.52891235351564,
+      "out_down_m": 63.228912353515625,
+      "back_up_m": 63.228912353515625,
+      "back_down_m": 165.52891235351564
+    },
+    "S010": {
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "dem_cell_count": 203,
+      "cruise_altitude_m": 435.63653564453125,
+      "out_up_m": 307.93653564453126,
+      "out_down_m": 84.03653564453123,
+      "back_up_m": 84.03653564453123,
+      "back_down_m": 307.93653564453126
+    },
+    "S011": {
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "dem_cell_count": 123,
+      "cruise_altitude_m": 295.36175537109375,
+      "out_up_m": 167.66175537109376,
+      "out_down_m": 83.26175537109376,
+      "back_up_m": 83.26175537109376,
+      "back_down_m": 167.66175537109376
+    },
+    "S012": {
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "dem_cell_count": 354,
+      "cruise_altitude_m": 413.3009948730469,
+      "out_up_m": 285.6009948730469,
+      "out_down_m": 133.50099487304686,
+      "back_up_m": 133.50099487304686,
+      "back_down_m": 285.6009948730469
+    },
+    "S013": {
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "dem_cell_count": 228,
+      "cruise_altitude_m": 399.18182373046875,
+      "out_up_m": 271.48182373046876,
+      "out_down_m": 47.48182373046876,
+      "back_up_m": 47.48182373046876,
+      "back_down_m": 271.48182373046876
+    },
+    "S014": {
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "dem_cell_count": 203,
+      "cruise_altitude_m": 591.9473876953125,
+      "out_up_m": 464.2473876953125,
+      "out_down_m": 240.9473876953125,
+      "back_up_m": 240.9473876953125,
+      "back_down_m": 464.2473876953125
+    },
+    "S015": {
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "dem_cell_count": 286,
+      "cruise_altitude_m": 571.7992553710938,
+      "out_up_m": 444.09925537109376,
+      "out_down_m": 97.29925537109375,
+      "back_up_m": 97.29925537109375,
+      "back_down_m": 444.09925537109376
+    }
+  },
+  "capacities": [
+    {
+      "reserve_pct": 10.0,
+      "zone": "S001",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S001",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S001",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S002",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S002",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S002",
+      "model": "C",
+      "safe_mass_kg": 78.36860603297953,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S003",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S003",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S003",
+      "model": "C",
+      "safe_mass_kg": 78.2527393690708,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S004",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S004",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S004",
+      "model": "C",
+      "safe_mass_kg": 74.56942311045628,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S005",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S005",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S005",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S006",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S006",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S006",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S007",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S007",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S007",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S008",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S008",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S008",
+      "model": "C",
+      "safe_mass_kg": 71.10875186975403,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S009",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S009",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S009",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S010",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S010",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S010",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S011",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S011",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S011",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S012",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S012",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S012",
+      "model": "C",
+      "safe_mass_kg": 78.01661305442464,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S013",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S013",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S013",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S014",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S014",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S014",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S015",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S015",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 10.0,
+      "zone": "S015",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S001",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S001",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S001",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S002",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S002",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S002",
+      "model": "C",
+      "safe_mass_kg": 68.55443262408879,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S003",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S003",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S003",
+      "model": "C",
+      "safe_mass_kg": 68.23562118087465,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S004",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S004",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S004",
+      "model": "C",
+      "safe_mass_kg": 63.259463199354855,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S005",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S005",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S005",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S006",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S006",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S006",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S007",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S007",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S007",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S008",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S008",
+      "model": "B",
+      "safe_mass_kg": 28.63251630757019,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S008",
+      "model": "C",
+      "safe_mass_kg": 58.436014280746505,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S009",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S009",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S009",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S010",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S010",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S010",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S011",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S011",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S011",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S012",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S012",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S012",
+      "model": "C",
+      "safe_mass_kg": 68.01480482056708,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S013",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S013",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S013",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S014",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S014",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S014",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S015",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S015",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 20.0,
+      "zone": "S015",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S001",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S001",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S001",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S002",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S002",
+      "model": "B",
+      "safe_mass_kg": 26.580647803798716,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S002",
+      "model": "C",
+      "safe_mass_kg": 52.481361782192046,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S003",
+      "model": "A",
+      "safe_mass_kg": 24.773177781512096,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S003",
+      "model": "B",
+      "safe_mass_kg": 25.44379002870436,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S003",
+      "model": "C",
+      "safe_mass_kg": 51.84048796140943,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S004",
+      "model": "A",
+      "safe_mass_kg": 19.603411209111243,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S004",
+      "model": "B",
+      "safe_mass_kg": 23.19350424384177,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S004",
+      "model": "C",
+      "safe_mass_kg": 44.03779322792067,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S005",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S005",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S005",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S006",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S006",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S006",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S007",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S007",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S007",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S008",
+      "model": "A",
+      "safe_mass_kg": 13.517254547232744,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S008",
+      "model": "B",
+      "safe_mass_kg": 20.731801659979784,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S008",
+      "model": "C",
+      "safe_mass_kg": 36.00122165811889,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S009",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S009",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S009",
+      "model": "C",
+      "safe_mass_kg": 78.94382274368566,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S010",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S010",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S010",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S011",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S011",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S011",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S012",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S012",
+      "model": "B",
+      "safe_mass_kg": 25.92777016446219,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S012",
+      "model": "C",
+      "safe_mass_kg": 51.598153229981754,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S013",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S013",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S013",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S014",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S014",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S014",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S015",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S015",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 30.0,
+      "zone": "S015",
+      "model": "C",
+      "safe_mass_kg": 72.87621325720475,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S001",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S001",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S001",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3063.407094930797,
+      "max_dem_m": 223.05661010742188,
+      "cruise_altitude_m": 273.0566101074219
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S002",
+      "model": "A",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": false,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S002",
+      "model": "B",
+      "safe_mass_kg": 15.389426741931356,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S002",
+      "model": "C",
+      "safe_mass_kg": 18.07851914981141,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7435.2682483091,
+      "max_dem_m": 258.9542541503906,
+      "cruise_altitude_m": 308.9542541503906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S003",
+      "model": "A",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": false,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S003",
+      "model": "B",
+      "safe_mass_kg": 12.898528814950188,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S003",
+      "model": "C",
+      "safe_mass_kg": 17.410167416474305,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7261.065540953848,
+      "max_dem_m": 511.80413818359375,
+      "cruise_altitude_m": 561.8041381835938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S004",
+      "model": "A",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": false,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S004",
+      "model": "B",
+      "safe_mass_kg": 8.070177020234892,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S004",
+      "model": "C",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": false,
+      "distance_m": 7745.651742751971,
+      "max_dem_m": 348.2391662597656,
+      "cruise_altitude_m": 398.2391662597656
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S005",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S005",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S005",
+      "model": "C",
+      "safe_mass_kg": 72.1378330433624,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5302.0128076982855,
+      "max_dem_m": 276.410888671875,
+      "cruise_altitude_m": 326.410888671875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S006",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S006",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S006",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 3181.0289144316203,
+      "max_dem_m": 316.09783935546875,
+      "cruise_altitude_m": 366.09783935546875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S007",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S007",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S007",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4533.821635606341,
+      "max_dem_m": 461.9731750488281,
+      "cruise_altitude_m": 511.9731750488281
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S008",
+      "model": "A",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": false,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S008",
+      "model": "B",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": false,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S008",
+      "model": "C",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": false,
+      "distance_m": 8109.461983662224,
+      "max_dem_m": 322.9093322753906,
+      "cruise_altitude_m": 372.9093322753906
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S009",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S009",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S009",
+      "model": "C",
+      "safe_mass_kg": 65.68204569942398,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5722.672488722757,
+      "max_dem_m": 243.22891235351562,
+      "cruise_altitude_m": 293.2289123535156
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S010",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S010",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S010",
+      "model": "C",
+      "safe_mass_kg": 79.24121098494768,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4778.43330136777,
+      "max_dem_m": 385.63653564453125,
+      "cruise_altitude_m": 435.63653564453125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S011",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S011",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S011",
+      "model": "C",
+      "safe_mass_kg": 80.0,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 2817.14783394126,
+      "max_dem_m": 245.36175537109375,
+      "cruise_altitude_m": 295.36175537109375
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S012",
+      "model": "A",
+      "safe_mass_kg": null,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": false,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S012",
+      "model": "B",
+      "safe_mass_kg": 14.0325564209752,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S012",
+      "model": "C",
+      "safe_mass_kg": 16.304479359164286,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 7398.43934212781,
+      "max_dem_m": 363.3009948730469,
+      "cruise_altitude_m": 413.3009948730469
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S013",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S013",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S013",
+      "model": "C",
+      "safe_mass_kg": 78.69203654928015,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 4848.700302599784,
+      "max_dem_m": 349.18182373046875,
+      "cruise_altitude_m": 399.18182373046875
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S014",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S014",
+      "model": "B",
+      "safe_mass_kg": 30.0,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S014",
+      "model": "C",
+      "safe_mass_kg": 66.91590784812206,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 5410.909620502694,
+      "max_dem_m": 541.9473876953125,
+      "cruise_altitude_m": 591.9473876953125
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S015",
+      "model": "A",
+      "safe_mass_kg": 25.0,
+      "max_volume_m3": 0.06,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S015",
+      "model": "B",
+      "safe_mass_kg": 27.121731586313572,
+      "max_volume_m3": 0.073,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    },
+    {
+      "reserve_pct": 40.0,
+      "zone": "S015",
+      "model": "C",
+      "safe_mass_kg": 56.15909179492321,
+      "max_volume_m3": 0.25,
+      "empty_trip_feasible": true,
+      "distance_m": 6019.105634595291,
+      "max_dem_m": 521.7992553710938,
+      "cruise_altitude_m": 571.7992553710938
+    }
+  ],
+  "scenarios": {
+    "20pct_lexicographic": {
+      "metrics": {
+        "reserve_pct": 20.0,
+        "objective": "lexicographic",
+        "trip_count": 18,
+        "energy_kwh": 59.240179504487955,
+        "flight_s": 19310.48135982146,
+        "operation_s": 32798.48135982145,
+        "models": {
+          "C": 9,
+          "B": 9
+        }
+      },
+      "trips": [
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-FOD-01",
+            "S001-FOD-02",
+            "S001-HYG-01",
+            "S001-HYG-02"
+          ],
+          "mass_kg": 76.0,
+          "volume_m3": 0.231,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1693.4261775174655,
+          "energy_kwh": 2.926233492385858,
+          "return_soc_pct": 63.42208134517677,
+          "zone": "S001",
+          "trip_id": "Q1-001"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-WAT-04",
+            "S001-WAT-05",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08",
+            "S001-FOD-03"
+          ],
+          "mass_kg": 78.0,
+          "volume_m3": 0.163,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1495.4261775174655,
+          "energy_kwh": 3.0046580540161805,
+          "return_soc_pct": 62.44177432479774,
+          "zone": "S001",
+          "trip_id": "Q1-002"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S002-MED-01",
+            "S002-WAT-01",
+            "S002-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1189.888672528453,
+          "operation_s": 1819.888672528453,
+          "energy_kwh": 2.7218943772005537,
+          "return_soc_pct": 31.95264056998616,
+          "zone": "S002",
+          "trip_id": "Q1-003"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04",
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1235.00675724525,
+          "operation_s": 2045.00675724525,
+          "energy_kwh": 5.739325829682837,
+          "return_soc_pct": 28.258427128964534,
+          "zone": "S002",
+          "trip_id": "Q1-004"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S003-MED-01",
+            "S003-WAT-01",
+            "S003-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1450.2414747964503,
+          "operation_s": 2080.2414747964503,
+          "energy_kwh": 2.7790982266290136,
+          "return_soc_pct": 30.52254433427466,
+          "zone": "S003",
+          "trip_id": "Q1-005"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2369.8095208576483,
+          "energy_kwh": 5.763273985511324,
+          "return_soc_pct": 27.95907518110845,
+          "zone": "S003",
+          "trip_id": "Q1-006"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1429.184064967841,
+          "operation_s": 2305.184064967841,
+          "energy_kwh": 6.176850319279741,
+          "return_soc_pct": 22.789371009003233,
+          "zone": "S004",
+          "trip_id": "Q1-007"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03",
+            "S005-FOD-01",
+            "S005-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1004.044640635813,
+          "operation_s": 1880.044640635813,
+          "energy_kwh": 4.2387293916235045,
+          "return_soc_pct": 47.01588260470619,
+          "zone": "S005",
+          "trip_id": "Q1-008"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03",
+            "S006-FOD-01",
+            "S006-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 684.8632994307264,
+          "operation_s": 1560.8632994307263,
+          "energy_kwh": 2.5939315307618034,
+          "return_soc_pct": 67.57585586547745,
+          "zone": "S006",
+          "trip_id": "Q1-009"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1097.4812665020695,
+          "operation_s": 1907.4812665020695,
+          "energy_kwh": 3.410371572295873,
+          "return_soc_pct": 57.370355346301594,
+          "zone": "S007",
+          "trip_id": "Q1-010"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02",
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1393.758395917333,
+          "operation_s": 2203.758395917333,
+          "energy_kwh": 5.857443572112204,
+          "return_soc_pct": 26.781955348597453,
+          "zone": "S008",
+          "trip_id": "Q1-011"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 930.7787366148572,
+          "operation_s": 1560.7787366148573,
+          "energy_kwh": 2.1024282735707973,
+          "return_soc_pct": 47.43929316073007,
+          "zone": "S009",
+          "trip_id": "Q1-012"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 924.5713591276817,
+          "operation_s": 1554.5713591276817,
+          "energy_kwh": 1.8210020641099651,
+          "return_soc_pct": 54.47494839725087,
+          "zone": "S010",
+          "trip_id": "Q1-013"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S011-MED-01",
+            "S011-WAT-01",
+            "S011-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 559.6302857364389,
+          "operation_s": 1189.630285736439,
+          "energy_kwh": 1.0771447575133386,
+          "return_soc_pct": 73.07138106216652,
+          "zone": "S011",
+          "trip_id": "Q1-014"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S012-MED-01",
+            "S012-WAT-01",
+            "S012-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1293.8000380975102,
+          "operation_s": 1923.8000380975102,
+          "energy_kwh": 2.7551898442891676,
+          "return_soc_pct": 31.120253892770812,
+          "zone": "S012",
+          "trip_id": "Q1-015"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S013-MED-01",
+            "S013-WAT-01",
+            "S013-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 880.4000484846587,
+          "operation_s": 1510.4000484846588,
+          "energy_kwh": 1.8245313662810312,
+          "return_soc_pct": 54.38671584297422,
+          "zone": "S013",
+          "trip_id": "Q1-016"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1238.597451353484,
+          "operation_s": 1868.597451353484,
+          "energy_kwh": 2.1372300655472025,
+          "return_soc_pct": 46.569248361319936,
+          "zone": "S014",
+          "trip_id": "Q1-017"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1199.5729924903096,
+          "operation_s": 1829.5729924903096,
+          "energy_kwh": 2.310842781677572,
+          "return_soc_pct": 42.228930458060695,
+          "zone": "S015",
+          "trip_id": "Q1-018"
+        }
+      ]
+    },
+    "20pct_energy": {
+      "metrics": {
+        "reserve_pct": 20.0,
+        "objective": "energy",
+        "trip_count": 19,
+        "energy_kwh": 59.142134463931846,
+        "flight_s": 20588.50020088853,
+        "operation_s": 34466.50020088853,
+        "models": {
+          "C": 8,
+          "B": 11
+        }
+      },
+      "trips": [
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-FOD-01",
+            "S001-FOD-02",
+            "S001-HYG-01",
+            "S001-HYG-02"
+          ],
+          "mass_kg": 76.0,
+          "volume_m3": 0.231,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1693.4261775174655,
+          "energy_kwh": 2.926233492385858,
+          "return_soc_pct": 63.42208134517677,
+          "zone": "S001",
+          "trip_id": "Q1-001"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-WAT-04",
+            "S001-WAT-05",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08",
+            "S001-FOD-03"
+          ],
+          "mass_kg": 78.0,
+          "volume_m3": 0.163,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1495.4261775174655,
+          "energy_kwh": 3.0046580540161805,
+          "return_soc_pct": 62.44177432479774,
+          "zone": "S001",
+          "trip_id": "Q1-002"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S002-MED-01",
+            "S002-WAT-01",
+            "S002-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1189.888672528453,
+          "operation_s": 1819.888672528453,
+          "energy_kwh": 2.7218943772005537,
+          "return_soc_pct": 31.95264056998616,
+          "zone": "S002",
+          "trip_id": "Q1-003"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04",
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1235.00675724525,
+          "operation_s": 2045.00675724525,
+          "energy_kwh": 5.739325829682837,
+          "return_soc_pct": 28.258427128964534,
+          "zone": "S002",
+          "trip_id": "Q1-004"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S003-MED-01",
+            "S003-WAT-01",
+            "S003-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1450.2414747964503,
+          "operation_s": 2080.2414747964503,
+          "energy_kwh": 2.7790982266290136,
+          "return_soc_pct": 30.52254433427466,
+          "zone": "S003",
+          "trip_id": "Q1-005"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2369.8095208576483,
+          "energy_kwh": 5.763273985511324,
+          "return_soc_pct": 27.95907518110845,
+          "zone": "S003",
+          "trip_id": "Q1-006"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1429.184064967841,
+          "operation_s": 2305.184064967841,
+          "energy_kwh": 6.176850319279741,
+          "return_soc_pct": 22.789371009003233,
+          "zone": "S004",
+          "trip_id": "Q1-007"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03",
+            "S005-FOD-01",
+            "S005-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1004.044640635813,
+          "operation_s": 1880.044640635813,
+          "energy_kwh": 4.2387293916235045,
+          "return_soc_pct": 47.01588260470619,
+          "zone": "S005",
+          "trip_id": "Q1-008"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03",
+            "S006-FOD-01",
+            "S006-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 684.8632994307264,
+          "operation_s": 1560.8632994307263,
+          "energy_kwh": 2.5939315307618034,
+          "return_soc_pct": 67.57585586547745,
+          "zone": "S006",
+          "trip_id": "Q1-009"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1097.4812665020695,
+          "operation_s": 1907.4812665020695,
+          "energy_kwh": 3.410371572295873,
+          "return_soc_pct": 57.370355346301594,
+          "zone": "S007",
+          "trip_id": "Q1-010"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S008-WAT-01",
+            "S008-HYG-01"
+          ],
+          "mass_kg": 20.0,
+          "volume_m3": 0.062,
+          "flight_s": 1335.8886184922028,
+          "operation_s": 1905.8886184922028,
+          "energy_kwh": 2.7734223458302933,
+          "return_soc_pct": 30.664441354242665,
+          "zone": "S008",
+          "trip_id": "Q1-011"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-02",
+            "S008-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1335.8886184922028,
+          "operation_s": 1965.8886184922028,
+          "energy_kwh": 2.985976185725802,
+          "return_soc_pct": 25.350595356854953,
+          "zone": "S008",
+          "trip_id": "Q1-012"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 930.7787366148572,
+          "operation_s": 1560.7787366148573,
+          "energy_kwh": 2.1024282735707973,
+          "return_soc_pct": 47.43929316073007,
+          "zone": "S009",
+          "trip_id": "Q1-013"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 924.5713591276817,
+          "operation_s": 1554.5713591276817,
+          "energy_kwh": 1.8210020641099651,
+          "return_soc_pct": 54.47494839725087,
+          "zone": "S010",
+          "trip_id": "Q1-014"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S011-MED-01",
+            "S011-WAT-01",
+            "S011-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 559.6302857364389,
+          "operation_s": 1189.630285736439,
+          "energy_kwh": 1.0771447575133386,
+          "return_soc_pct": 73.07138106216652,
+          "zone": "S011",
+          "trip_id": "Q1-015"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S012-MED-01",
+            "S012-WAT-01",
+            "S012-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1293.8000380975102,
+          "operation_s": 1923.8000380975102,
+          "energy_kwh": 2.7551898442891676,
+          "return_soc_pct": 31.120253892770812,
+          "zone": "S012",
+          "trip_id": "Q1-016"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S013-MED-01",
+            "S013-WAT-01",
+            "S013-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 880.4000484846587,
+          "operation_s": 1510.4000484846588,
+          "energy_kwh": 1.8245313662810312,
+          "return_soc_pct": 54.38671584297422,
+          "zone": "S013",
+          "trip_id": "Q1-017"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1238.597451353484,
+          "operation_s": 1868.597451353484,
+          "energy_kwh": 2.1372300655472025,
+          "return_soc_pct": 46.569248361319936,
+          "zone": "S014",
+          "trip_id": "Q1-018"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1199.5729924903096,
+          "operation_s": 1829.5729924903096,
+          "energy_kwh": 2.310842781677572,
+          "return_soc_pct": 42.228930458060695,
+          "zone": "S015",
+          "trip_id": "Q1-019"
+        }
+      ]
+    },
+    "20pct_time": {
+      "metrics": {
+        "reserve_pct": 20.0,
+        "objective": "time",
+        "trip_count": 18,
+        "energy_kwh": 59.240179504487955,
+        "flight_s": 19310.48135982146,
+        "operation_s": 32798.48135982145,
+        "models": {
+          "C": 9,
+          "B": 9
+        }
+      },
+      "trips": [
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-FOD-01",
+            "S001-FOD-02",
+            "S001-HYG-01",
+            "S001-HYG-02"
+          ],
+          "mass_kg": 76.0,
+          "volume_m3": 0.231,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1693.4261775174655,
+          "energy_kwh": 2.926233492385858,
+          "return_soc_pct": 63.42208134517677,
+          "zone": "S001",
+          "trip_id": "Q1-001"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-WAT-04",
+            "S001-WAT-05",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08",
+            "S001-FOD-03"
+          ],
+          "mass_kg": 78.0,
+          "volume_m3": 0.163,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1495.4261775174655,
+          "energy_kwh": 3.0046580540161805,
+          "return_soc_pct": 62.44177432479774,
+          "zone": "S001",
+          "trip_id": "Q1-002"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S002-MED-01",
+            "S002-WAT-01",
+            "S002-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1189.888672528453,
+          "operation_s": 1819.888672528453,
+          "energy_kwh": 2.7218943772005537,
+          "return_soc_pct": 31.95264056998616,
+          "zone": "S002",
+          "trip_id": "Q1-003"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04",
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1235.00675724525,
+          "operation_s": 2045.00675724525,
+          "energy_kwh": 5.739325829682837,
+          "return_soc_pct": 28.258427128964534,
+          "zone": "S002",
+          "trip_id": "Q1-004"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S003-MED-01",
+            "S003-WAT-01",
+            "S003-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1450.2414747964503,
+          "operation_s": 2080.2414747964503,
+          "energy_kwh": 2.7790982266290136,
+          "return_soc_pct": 30.52254433427466,
+          "zone": "S003",
+          "trip_id": "Q1-005"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2369.8095208576483,
+          "energy_kwh": 5.763273985511324,
+          "return_soc_pct": 27.95907518110845,
+          "zone": "S003",
+          "trip_id": "Q1-006"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1429.184064967841,
+          "operation_s": 2305.184064967841,
+          "energy_kwh": 6.176850319279741,
+          "return_soc_pct": 22.789371009003233,
+          "zone": "S004",
+          "trip_id": "Q1-007"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03",
+            "S005-FOD-01",
+            "S005-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1004.044640635813,
+          "operation_s": 1880.044640635813,
+          "energy_kwh": 4.2387293916235045,
+          "return_soc_pct": 47.01588260470619,
+          "zone": "S005",
+          "trip_id": "Q1-008"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03",
+            "S006-FOD-01",
+            "S006-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 684.8632994307264,
+          "operation_s": 1560.8632994307263,
+          "energy_kwh": 2.5939315307618034,
+          "return_soc_pct": 67.57585586547745,
+          "zone": "S006",
+          "trip_id": "Q1-009"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1097.4812665020695,
+          "operation_s": 1907.4812665020695,
+          "energy_kwh": 3.410371572295873,
+          "return_soc_pct": 57.370355346301594,
+          "zone": "S007",
+          "trip_id": "Q1-010"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02",
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1393.758395917333,
+          "operation_s": 2203.758395917333,
+          "energy_kwh": 5.857443572112204,
+          "return_soc_pct": 26.781955348597453,
+          "zone": "S008",
+          "trip_id": "Q1-011"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 930.7787366148572,
+          "operation_s": 1560.7787366148573,
+          "energy_kwh": 2.1024282735707973,
+          "return_soc_pct": 47.43929316073007,
+          "zone": "S009",
+          "trip_id": "Q1-012"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 924.5713591276817,
+          "operation_s": 1554.5713591276817,
+          "energy_kwh": 1.8210020641099651,
+          "return_soc_pct": 54.47494839725087,
+          "zone": "S010",
+          "trip_id": "Q1-013"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S011-MED-01",
+            "S011-WAT-01",
+            "S011-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 559.6302857364389,
+          "operation_s": 1189.630285736439,
+          "energy_kwh": 1.0771447575133386,
+          "return_soc_pct": 73.07138106216652,
+          "zone": "S011",
+          "trip_id": "Q1-014"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S012-MED-01",
+            "S012-WAT-01",
+            "S012-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1293.8000380975102,
+          "operation_s": 1923.8000380975102,
+          "energy_kwh": 2.7551898442891676,
+          "return_soc_pct": 31.120253892770812,
+          "zone": "S012",
+          "trip_id": "Q1-015"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S013-MED-01",
+            "S013-WAT-01",
+            "S013-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 880.4000484846587,
+          "operation_s": 1510.4000484846588,
+          "energy_kwh": 1.8245313662810312,
+          "return_soc_pct": 54.38671584297422,
+          "zone": "S013",
+          "trip_id": "Q1-016"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1238.597451353484,
+          "operation_s": 1868.597451353484,
+          "energy_kwh": 2.1372300655472025,
+          "return_soc_pct": 46.569248361319936,
+          "zone": "S014",
+          "trip_id": "Q1-017"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1199.5729924903096,
+          "operation_s": 1829.5729924903096,
+          "energy_kwh": 2.310842781677572,
+          "return_soc_pct": 42.228930458060695,
+          "zone": "S015",
+          "trip_id": "Q1-018"
+        }
+      ]
+    },
+    "10pct_lexicographic": {
+      "metrics": {
+        "reserve_pct": 10.0,
+        "objective": "lexicographic",
+        "trip_count": 18,
+        "energy_kwh": 59.240179504487955,
+        "flight_s": 19310.48135982146,
+        "operation_s": 32798.48135982145,
+        "models": {
+          "C": 9,
+          "B": 9
+        }
+      },
+      "trips": [
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-FOD-01",
+            "S001-FOD-02",
+            "S001-HYG-01",
+            "S001-HYG-02"
+          ],
+          "mass_kg": 76.0,
+          "volume_m3": 0.231,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1693.4261775174655,
+          "energy_kwh": 2.926233492385858,
+          "return_soc_pct": 63.42208134517677,
+          "zone": "S001",
+          "trip_id": "Q1-001"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-WAT-04",
+            "S001-WAT-05",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08",
+            "S001-FOD-03"
+          ],
+          "mass_kg": 78.0,
+          "volume_m3": 0.163,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1495.4261775174655,
+          "energy_kwh": 3.0046580540161805,
+          "return_soc_pct": 62.44177432479774,
+          "zone": "S001",
+          "trip_id": "Q1-002"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S002-MED-01",
+            "S002-WAT-01",
+            "S002-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1189.888672528453,
+          "operation_s": 1819.888672528453,
+          "energy_kwh": 2.7218943772005537,
+          "return_soc_pct": 31.95264056998616,
+          "zone": "S002",
+          "trip_id": "Q1-003"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04",
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1235.00675724525,
+          "operation_s": 2045.00675724525,
+          "energy_kwh": 5.739325829682837,
+          "return_soc_pct": 28.258427128964534,
+          "zone": "S002",
+          "trip_id": "Q1-004"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S003-MED-01",
+            "S003-WAT-01",
+            "S003-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1450.2414747964503,
+          "operation_s": 2080.2414747964503,
+          "energy_kwh": 2.7790982266290136,
+          "return_soc_pct": 30.52254433427466,
+          "zone": "S003",
+          "trip_id": "Q1-005"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ],
+          "mass_kg": 56.0,
+          "volume_m3": 0.14400000000000002,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2369.8095208576483,
+          "energy_kwh": 5.763273985511324,
+          "return_soc_pct": 27.95907518110845,
+          "zone": "S003",
+          "trip_id": "Q1-006"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1429.184064967841,
+          "operation_s": 2305.184064967841,
+          "energy_kwh": 6.176850319279741,
+          "return_soc_pct": 22.789371009003233,
+          "zone": "S004",
+          "trip_id": "Q1-007"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03",
+            "S005-FOD-01",
+            "S005-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1004.044640635813,
+          "operation_s": 1880.044640635813,
+          "energy_kwh": 4.2387293916235045,
+          "return_soc_pct": 47.01588260470619,
+          "zone": "S005",
+          "trip_id": "Q1-008"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03",
+            "S006-FOD-01",
+            "S006-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 684.8632994307264,
+          "operation_s": 1560.8632994307263,
+          "energy_kwh": 2.5939315307618034,
+          "return_soc_pct": 67.57585586547745,
+          "zone": "S006",
+          "trip_id": "Q1-009"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1097.4812665020695,
+          "operation_s": 1907.4812665020695,
+          "energy_kwh": 3.410371572295873,
+          "return_soc_pct": 57.370355346301594,
+          "zone": "S007",
+          "trip_id": "Q1-010"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02",
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1393.758395917333,
+          "operation_s": 2203.758395917333,
+          "energy_kwh": 5.857443572112204,
+          "return_soc_pct": 26.781955348597453,
+          "zone": "S008",
+          "trip_id": "Q1-011"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 930.7787366148572,
+          "operation_s": 1560.7787366148573,
+          "energy_kwh": 2.1024282735707973,
+          "return_soc_pct": 47.43929316073007,
+          "zone": "S009",
+          "trip_id": "Q1-012"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 924.5713591276817,
+          "operation_s": 1554.5713591276817,
+          "energy_kwh": 1.8210020641099651,
+          "return_soc_pct": 54.47494839725087,
+          "zone": "S010",
+          "trip_id": "Q1-013"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S011-MED-01",
+            "S011-WAT-01",
+            "S011-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 559.6302857364389,
+          "operation_s": 1189.630285736439,
+          "energy_kwh": 1.0771447575133386,
+          "return_soc_pct": 73.07138106216652,
+          "zone": "S011",
+          "trip_id": "Q1-014"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S012-MED-01",
+            "S012-WAT-01",
+            "S012-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1293.8000380975102,
+          "operation_s": 1923.8000380975102,
+          "energy_kwh": 2.7551898442891676,
+          "return_soc_pct": 31.120253892770812,
+          "zone": "S012",
+          "trip_id": "Q1-015"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S013-MED-01",
+            "S013-WAT-01",
+            "S013-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 880.4000484846587,
+          "operation_s": 1510.4000484846588,
+          "energy_kwh": 1.8245313662810312,
+          "return_soc_pct": 54.38671584297422,
+          "zone": "S013",
+          "trip_id": "Q1-016"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1238.597451353484,
+          "operation_s": 1868.597451353484,
+          "energy_kwh": 2.1372300655472025,
+          "return_soc_pct": 46.569248361319936,
+          "zone": "S014",
+          "trip_id": "Q1-017"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1199.5729924903096,
+          "operation_s": 1829.5729924903096,
+          "energy_kwh": 2.310842781677572,
+          "return_soc_pct": 42.228930458060695,
+          "zone": "S015",
+          "trip_id": "Q1-018"
+        }
+      ]
+    },
+    "30pct_lexicographic": {
+      "metrics": {
+        "reserve_pct": 30.0,
+        "objective": "lexicographic",
+        "trip_count": 20,
+        "energy_kwh": 67.35762199485156,
+        "flight_s": 22156.827118639576,
+        "operation_s": 36616.82711863957,
+        "models": {
+          "C": 11,
+          "B": 9
+        }
+      },
+      "trips": [
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-FOD-01",
+            "S001-FOD-02",
+            "S001-HYG-01",
+            "S001-HYG-02"
+          ],
+          "mass_kg": 76.0,
+          "volume_m3": 0.231,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1693.4261775174655,
+          "energy_kwh": 2.926233492385858,
+          "return_soc_pct": 63.42208134517677,
+          "zone": "S001",
+          "trip_id": "Q1-001"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S001-WAT-04",
+            "S001-WAT-05",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08",
+            "S001-FOD-03"
+          ],
+          "mass_kg": 78.0,
+          "volume_m3": 0.163,
+          "flight_s": 619.4261775174656,
+          "operation_s": 1495.4261775174655,
+          "energy_kwh": 3.0046580540161805,
+          "return_soc_pct": 62.44177432479774,
+          "zone": "S001",
+          "trip_id": "Q1-002"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-MED-01",
+            "S002-WAT-01",
+            "S002-FOD-01",
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ],
+          "mass_kg": 39.0,
+          "volume_m3": 0.13,
+          "flight_s": 1235.00675724525,
+          "operation_s": 2045.00675724525,
+          "energy_kwh": 5.187287887642446,
+          "return_soc_pct": 35.158901404469425,
+          "zone": "S002",
+          "trip_id": "Q1-003"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04"
+          ],
+          "mass_kg": 42.0,
+          "volume_m3": 0.081,
+          "flight_s": 1235.00675724525,
+          "operation_s": 1913.00675724525,
+          "energy_kwh": 5.26525803907849,
+          "return_soc_pct": 34.18427451151887,
+          "zone": "S002",
+          "trip_id": "Q1-004"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-MED-01",
+            "S003-WAT-01",
+            "S003-FOD-01",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ],
+          "mass_kg": 39.0,
+          "volume_m3": 0.13,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2369.8095208576483,
+          "energy_kwh": 5.207633860988663,
+          "return_soc_pct": 34.90457673764171,
+          "zone": "S003",
+          "trip_id": "Q1-005"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04"
+          ],
+          "mass_kg": 42.0,
+          "volume_m3": 0.081,
+          "flight_s": 1559.8095208576483,
+          "operation_s": 2237.8095208576483,
+          "energy_kwh": 5.2866953508440835,
+          "return_soc_pct": 33.91630811444896,
+          "zone": "S003",
+          "trip_id": "Q1-006"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01"
+          ],
+          "mass_kg": 17.0,
+          "volume_m3": 0.039,
+          "flight_s": 1355.7710095479192,
+          "operation_s": 1925.7710095479192,
+          "energy_kwh": 2.5863131238813817,
+          "return_soc_pct": 35.34217190296546,
+          "zone": "S004",
+          "trip_id": "Q1-007"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ],
+          "mass_kg": 42.0,
+          "volume_m3": 0.117,
+          "flight_s": 1429.184064967841,
+          "operation_s": 2173.184064967841,
+          "energy_kwh": 5.539949407270448,
+          "return_soc_pct": 30.750632409119405,
+          "zone": "S004",
+          "trip_id": "Q1-008"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03",
+            "S005-FOD-01",
+            "S005-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 1004.044640635813,
+          "operation_s": 1880.044640635813,
+          "energy_kwh": 4.2387293916235045,
+          "return_soc_pct": 47.01588260470619,
+          "zone": "S005",
+          "trip_id": "Q1-009"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03",
+            "S006-FOD-01",
+            "S006-HYG-01"
+          ],
+          "mass_kg": 59.0,
+          "volume_m3": 0.156,
+          "flight_s": 684.8632994307264,
+          "operation_s": 1560.8632994307263,
+          "energy_kwh": 2.5939315307618034,
+          "return_soc_pct": 67.57585586547745,
+          "zone": "S006",
+          "trip_id": "Q1-010"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ],
+          "mass_kg": 45.0,
+          "volume_m3": 0.129,
+          "flight_s": 1097.4812665020695,
+          "operation_s": 1907.4812665020695,
+          "energy_kwh": 3.410371572295873,
+          "return_soc_pct": 57.370355346301594,
+          "zone": "S007",
+          "trip_id": "Q1-011"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ],
+          "mass_kg": 14.0,
+          "volume_m3": 0.063,
+          "flight_s": 1335.8886184922028,
+          "operation_s": 1905.8886184922028,
+          "energy_kwh": 2.598694266180906,
+          "return_soc_pct": 35.032643345477354,
+          "zone": "S008",
+          "trip_id": "Q1-012"
+        },
+        {
+          "model": "C",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ],
+          "mass_kg": 31.0,
+          "volume_m3": 0.066,
+          "flight_s": 1393.758395917333,
+          "operation_s": 2071.758395917333,
+          "energy_kwh": 5.483496864892834,
+          "return_soc_pct": 31.45628918883957,
+          "zone": "S008",
+          "trip_id": "Q1-013"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 930.7787366148572,
+          "operation_s": 1560.7787366148573,
+          "energy_kwh": 2.1024282735707973,
+          "return_soc_pct": 47.43929316073007,
+          "zone": "S009",
+          "trip_id": "Q1-014"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 924.5713591276817,
+          "operation_s": 1554.5713591276817,
+          "energy_kwh": 1.8210020641099651,
+          "return_soc_pct": 54.47494839725087,
+          "zone": "S010",
+          "trip_id": "Q1-015"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S011-MED-01",
+            "S011-WAT-01",
+            "S011-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 559.6302857364389,
+          "operation_s": 1189.630285736439,
+          "energy_kwh": 1.0771447575133386,
+          "return_soc_pct": 73.07138106216652,
+          "zone": "S011",
+          "trip_id": "Q1-016"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S012-MED-01",
+            "S012-WAT-01",
+            "S012-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1293.8000380975102,
+          "operation_s": 1923.8000380975102,
+          "energy_kwh": 2.7551898442891676,
+          "return_soc_pct": 31.120253892770812,
+          "zone": "S012",
+          "trip_id": "Q1-017"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S013-MED-01",
+            "S013-WAT-01",
+            "S013-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 880.4000484846587,
+          "operation_s": 1510.4000484846588,
+          "energy_kwh": 1.8245313662810312,
+          "return_soc_pct": 54.38671584297422,
+          "zone": "S013",
+          "trip_id": "Q1-018"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1238.597451353484,
+          "operation_s": 1868.597451353484,
+          "energy_kwh": 2.1372300655472025,
+          "return_soc_pct": 46.569248361319936,
+          "zone": "S014",
+          "trip_id": "Q1-019"
+        },
+        {
+          "model": "B",
+          "box_ids": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ],
+          "mass_kg": 25.0,
+          "volume_m3": 0.067,
+          "flight_s": 1199.5729924903096,
+          "operation_s": 1829.5729924903096,
+          "energy_kwh": 2.310842781677572,
+          "return_soc_pct": 42.228930458060695,
+          "zone": "S015",
+          "trip_id": "Q1-020"
+        }
+      ]
+    },
+    "40pct_lexicographic": {
+      "error": "服务区 S004 在返航余量 40% 下无法完成全部货箱"
+    }
+  }
+}
