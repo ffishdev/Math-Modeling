@@ -1,0 +1,13 @@
+{
+  "original_crop_shape": [
+    354,
+    500
+  ],
+  "surface_shape": [
+    89,
+    125
+  ],
+  "aggregation": "4x4 block maximum; edge blocks retain all pixels",
+  "calculation": "full-resolution DEM; no aggregation",
+  "vertical_display": "exaggerated; axes retain actual metres"
+}

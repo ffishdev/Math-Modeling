@@ -1,0 +1,92 @@
+[
+  {
+    "figure": "q1_batches.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_batches.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_local_tradeoff.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_local_tradeoff.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_payload.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_payload.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_policies.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_policies.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_profiles.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_profiles.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_reserve.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_reserve.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_sensitivity.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_sensitivity.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_terrain3d.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_terrain3d.pdf",
+    "check": "collision",
+    "exit": 0
+  },
+  {
+    "figure": "q1_tradeoff.pdf",
+    "check": "text",
+    "exit": 0
+  },
+  {
+    "figure": "q1_tradeoff.pdf",
+    "check": "collision",
+    "exit": 0
+  }
+]

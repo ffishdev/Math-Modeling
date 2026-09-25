@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="172.8pt" viewBox="0 0 510.23622 172.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-25T23:24:16.009707</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 172.8 
+L 510.23622 172.8 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 127.559055 126.144 
+L 505.133858 126.144 
+L 505.133858 8.64 
+L 127.559055 8.64 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 127.559055 13.981091 
+L 141.543307 13.981091 
+L 141.543307 35.345455 
+L 127.559055 35.345455 
+z
+" clip-path="url(#p7be167d365)" style="fill: #a75962; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 141.543307 13.981091 
+L 206.80315 13.981091 
+L 206.80315 35.345455 
+L 141.543307 35.345455 
+z
+" clip-path="url(#p7be167d365)" style="fill: #6798b7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 206.80315 13.981091 
+L 272.062992 13.981091 
+L 272.062992 35.345455 
+L 206.80315 35.345455 
+z
+" clip-path="url(#p7be167d365)" style="fill: #6798b7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 272.062992 13.981091 
+L 309.354331 13.981091 
+L 309.354331 35.345455 
+L 272.062992 35.345455 
+z
+" clip-path="url(#p7be167d365)" style="fill: #cab36e; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 309.354331 13.981091 
+L 337.322835 13.981091 
+L 337.322835 35.345455 
+L 309.354331 35.345455 
+z
+" clip-path="url(#p7be167d365)" style="fill: #8f91aa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 127.559055 56.709818 
+L 141.543307 56.709818 
+L 141.543307 78.074182 
+L 127.559055 78.074182 
+z
+" clip-path="url(#p7be167d365)" style="fill: #a75962; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 141.543307 56.709818 
+L 206.80315 56.709818 
+L 206.80315 78.074182 
+L 141.543307 78.074182 
+z
+" clip-path="url(#p7be167d365)" style="fill: #6798b7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 206.80315 56.709818 
+L 244.094488 56.709818 
+L 244.094488 78.074182 
+L 206.80315 78.074182 
+z
+" clip-path="url(#p7be167d365)" style="fill: #cab36e; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 127.559055 99.438545 
+L 192.818898 99.438545 
+L 192.818898 120.802909 
+L 127.559055 120.802909 
+z
+" clip-path="url(#p7be167d365)" style="fill: #6798b7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 192.818898 99.438545 
+L 220.787402 99.438545 
+L 220.787402 120.802909 
+L 192.818898 120.802909 
+z
+" clip-path="url(#p7be167d365)" style="fill: #8f91aa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m6a3796156f" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4c5862; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m6a3796156f" x="127.559055" y="126.144" style="fill: #4c5862; stroke: #4c5862; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: middle; fill: #4c5862" x="127.559055" y="138.87025" transform="rotate(-0 127.559055 138.87025)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m6a3796156f" x="197.480315" y="126.144" style="fill: #4c5862; stroke: #4c5862; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: middle; fill: #4c5862" x="197.480315" y="138.87025" transform="rotate(-0 197.480315 138.87025)">15</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m6a3796156f" x="267.401575" y="126.144" style="fill: #4c5862; stroke: #4c5862; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: middle; fill: #4c5862" x="267.401575" y="138.87025" transform="rotate(-0 267.401575 138.87025)">30</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m6a3796156f" x="337.322835" y="126.144" style="fill: #4c5862; stroke: #4c5862; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: middle; fill: #4c5862" x="337.322835" y="138.87025" transform="rotate(-0 337.322835 138.87025)">45</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 9px; font-family: 'Arial', 'Songti SC'; text-anchor: middle; fill: #253546" x="316.346457" y="151.938687" transform="rotate(-0 316.346457 151.938687)">架次载荷 (kg)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: end; fill: #4c5862" x="124.059055" y="27.636398" transform="rotate(-0 124.059055 27.636398)">时间优先：C 型</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: end; fill: #4c5862" x="124.059055" y="70.365125" transform="rotate(-0 124.059055 70.365125)">能耗优先：B 型（1）</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Arial', 'Songti SC'; text-anchor: end; fill: #4c5862" x="124.059055" y="113.093852" transform="rotate(-0 124.059055 113.093852)">能耗优先：B 型（2）</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_13">
+    <path d="M 127.559055 126.144 
+L 505.133858 126.144 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Arial', 'Songti SC'; text-anchor: start; fill: #253546" x="351.307087" y="26.989913" transform="rotate(-0 351.307087 26.989913)">5.836 kWh    36.66 min</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Arial', 'Songti SC'; text-anchor: start; fill: #253546" x="351.307087" y="69.718641" transform="rotate(-0 351.307087 69.718641)">2.975 kWh    32.70 min</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Arial', 'Songti SC'; text-anchor: start; fill: #253546" x="351.307087" y="112.447368" transform="rotate(-0 351.307087 112.447368)">2.763 kWh    31.70 min</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7be167d365">
+   <rect x="127.559055" y="8.64" width="377.574803" height="117.504"/>
+  </clipPath>
+ </defs>
+</svg>

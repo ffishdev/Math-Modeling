@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{四种偏好规则与全局前沿点的对应关系}
+\label{tab:q1-rules}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular}{@{}llrrrl@{}}
+\toprule
+规则 & 优先关系 & 架次数 & 能耗（kWh） & 时间（h） & 选定点 \\
+\midrule
+R1 & $N\to E\to T$ & 18 & 59.131 & 9.104 & $P_T$ \\
+R2 & $E\to N\to T$ & 19 & 59.034 & 9.567 & $P_E$ \\
+R3 & $T\to N\to E$ & 18 & 59.131 & 9.104 & $P_T$ \\
+R4 & 理想值归一化等权 & 18 & 59.131 & 9.104 & $P_T$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize R3 为本章推荐规则；R1、R3、R4 在本测试场景中恰好选中同一目标向量。}
+\end{table}

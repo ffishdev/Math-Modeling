@@ -1,0 +1,46 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass[bwprint,fontset=windows]{gmcmthesis}
+%\documentclass[bwprint]{gmcmthesis}
+
+\hypersetup{hidelinks}
+\usepackage[framemethod=TikZ]{mdframed}
+
+%\usepackage{fontspec}  % for Consolas & Courier New
+%\lstset{basicstyle=\small\fontspec{Consolas}}
+%\lstset{basicstyle=\small\fontspec{Courier New}}
+%\setmonofont{Consolas}
+%\setcounter{tocdepth}{3}   % 调整目录深度
+
+\usepackage{subfig}
+\usepackage{siunitx}
+\usepackage{pdflscape}
+
+\usepackage{colortbl}
+\definecolor{color1}{rgb}{0.78,0.88,0.99}
+\definecolor{color2}{rgb}{0.36,0.62,0.84}
+%\definecolor{color3}{rgb}{0.8235,0.8706,0.9373}
+\definecolor{color3}{rgb}{0.88,0.92,0.96}
+\definecolor{color4}{rgb}{0.96,0.97,0.98}%{0.9176,0.9373,0.9686}
+
+% 算法
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithmicx,algorithm}
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}
+\renewcommand{\algorithmicensure}{\textbf{输出:}}
+
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+%\numberwithin{table}{section}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+
+% 独立预览第六章；合并全篇时仅引入 chapter.tex 的正文。
+\usepackage{placeins}
+% 模板小节编号含排版间距；PDF 书签采用纯文本。
+\pdfstringdefDisableCommands{\def\thinskip{}}
+\begin{document}
+\setcounter{section}{5}
+\input{chapter.tex}
+\end{document}

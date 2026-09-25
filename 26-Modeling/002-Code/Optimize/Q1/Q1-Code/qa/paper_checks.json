@@ -1,0 +1,18 @@
+{
+  "pages": 13,
+  "figures": 9,
+  "tables": 5,
+  "overfull": 0,
+  "undefined_references": false,
+  "missing_glyphs": false,
+  "pdf_text_contains_unresolved_refs": false,
+  "warnings": [
+    "Package xeCJK Warning: Redefining CJKfamily `\\CJKrmdefault' (SimSun(0)).",
+    "Package xeCJK Warning: Redefining CJKfamily `zhkai' (KaiTi).",
+    "Package xeCJK Warning: Redefining CJKfamily `\\CJKsfdefault' (Microsoft YaHei).",
+    "Package xeCJK Warning: Redefining CJKfamily `zhsong' (SimSun).",
+    "Package xeCJK Warning: Redefining CJKfamily `zhhei' (SimHei).",
+    "Package hyperref Warning: Option `hyperfootnotes' has already been used,",
+    "Package hyperref Warning: Option `hyperindex' has already been used,"
+  ]
+}

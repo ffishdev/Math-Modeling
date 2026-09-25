@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+\centering
+\caption{返航安全余量扫描的时间优先组批结果}
+\label{tab:q1-sensitivity}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular}{@{}rrrrl@{}}
+\toprule
+$\rho$ & 架次数 & 能耗（kWh） & 时间（h） & 完整配送 \\
+\midrule
+0.05 & 18 & 59.131 & 9.104 & 可行 \\
+0.10 & 18 & 59.131 & 9.104 & 可行 \\
+0.15 & 18 & 59.131 & 9.104 & 可行 \\
+0.20 & 18 & 59.131 & 9.104 & 可行 \\
+0.25 & 19 & 61.165 & 9.600 & 可行 \\
+0.30 & 20 & 67.228 & 10.163 & 可行 \\
+0.35 & 25 & 75.638 & 12.603 & 可行 \\
+0.36 & -- & -- & -- & 不可行 \\
+0.40 & -- & -- & -- & 不可行 \\
+0.45 & -- & -- & -- & 不可行 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize 不可行时不以已覆盖服务区的部分合计冒充全局结果。扫描步长为 0.01，精确边界另由单箱可行性推导。}
+\end{table}

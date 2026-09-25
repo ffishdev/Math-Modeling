@@ -1,0 +1,6 @@
+{
+  "geometry_routes_checked": 15,
+  "payload_roots_checked": 45,
+  "DP_states_checked_against_quadratic_dominance": 629,
+  "status": "passed"
+}

@@ -1,0 +1,74 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {6}问题一：单点往返运输能力与时间优先货箱组批优化}{1}{section.6}\protected@file@percent }
+\newlabel{sec:q1}{{6}{1}{问题一：单点往返运输能力与时间优先货箱组批优化}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 1}问题分析与求解思路}{1}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 2}地形约束下的往返时间与能耗}{1}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 2\hskip 0.05em\relax .\hskip 0.05em\relax 1}直线航段、巡航海拔与作业高度}{1}{subsubsection.6.2.1}\protected@file@percent }
+\newlabel{eq:q1-distance}{{6.1}{1}{直线航段、巡航海拔与作业高度}{equation.1}{}}
+\newlabel{eq:q1-height}{{6.2}{1}{直线航段、巡航海拔与作业高度}{equation.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces 真实 DEM 地形与 15 条单点往返计划航线。坐标以 O01 为原点；高度方向作视觉夸张，轴值仍为实际海拔。地形显示采用 $4\times 4$ 像元块最大值聚合，航线叠加前置以便辨认；运输计算始终采用原始分辨率。}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:q1-terrain}{{6.1}{2}{真实 DEM 地形与 15 条单点往返计划航线。坐标以 O01 为原点；高度方向作视觉夸张，轴值仍为实际海拔。地形显示采用 $4\times 4$ 像元块最大值聚合，航线叠加前置以便辨认；运输计算始终采用原始分辨率。}{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces 代表航段的地形剖面与去程三阶段包线。S003 展示较大爬升，S008 为最远航段，S014 为最高巡航海拔航段。剖面曲线为沿线 400 点显示采样，巡航海拔依据全部经过像元的最大值确定。}}{2}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:q1-profiles}{{6.2}{2}{代表航段的地形剖面与去程三阶段包线。S003 展示较大爬升，S008 为最远航段，S014 为最高巡航海拔航段。剖面曲线为沿线 400 点显示采样，巡航海拔依据全部经过像元的最大值确定。}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 2\hskip 0.05em\relax .\hskip 0.05em\relax 2}载荷相关能耗与累计作业时间}{3}{subsubsection.6.2.2}\protected@file@percent }
+\newlabel{eq:q1-range}{{6.3}{3}{载荷相关能耗与累计作业时间}{equation.3}{}}
+\newlabel{eq:q1-energy}{{6.4}{3}{载荷相关能耗与累计作业时间}{equation.4}{}}
+\newlabel{eq:q1-flighttime}{{6.5}{3}{载荷相关能耗与累计作业时间}{equation.5}{}}
+\newlabel{eq:q1-time}{{6.6}{3}{载荷相关能耗与累计作业时间}{equation.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 3}最大安全载荷及限制来源}{3}{subsection.6.3}\protected@file@percent }
+\newlabel{eq:q1-qmax}{{6.7}{3}{最大安全载荷及限制来源}{equation.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces 基准返航安全余量下的最大安全载荷}}{4}{table.caption.3}\protected@file@percent }
+\newlabel{tab:q1-payload}{{6.1}{4}{基准返航安全余量下的最大安全载荷}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 4}不可拆货箱的多目标精确组批模型}{4}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 4\hskip 0.05em\relax .\hskip 0.05em\relax 1}装载模式与整数规划表述}{4}{subsubsection.6.4.1}\protected@file@percent }
+\newlabel{eq:q1-pattern}{{6.8}{4}{装载模式与整数规划表述}{equation.8}{}}
+\newlabel{eq:q1-mip}{{6.9}{4}{装载模式与整数规划表述}{equation.9}{}}
+\newlabel{eq:q1-cover}{{6.10}{4}{装载模式与整数规划表述}{equation.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces 三种机型在全部服务区的最大安全载荷。三面板共享质量尺度，虚线为结构载荷上限，深色边框点表示能量约束先于结构上限生效；基准返航安全余量为 20\%。}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:q1-payload}{{6.3}{5}{三种机型在全部服务区的最大安全载荷。三面板共享质量尺度，虚线为结构载荷上限，深色边框点表示能量约束先于结构上限生效；基准返航安全余量为 20\%。}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 4\hskip 0.05em\relax .\hskip 0.05em\relax 2}剩余需求状态与 Pareto 递推}{5}{subsubsection.6.4.2}\protected@file@percent }
+\newlabel{eq:q1-dp}{{6.11}{5}{剩余需求状态与 Pareto 递推}{equation.11}{}}
+\newlabel{eq:q1-globalfront}{{6.12}{5}{剩余需求状态与 Pareto 递推}{equation.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 5}从 Pareto 前沿到时间优先决策}{6}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 5\hskip 0.05em\relax .\hskip 0.05em\relax 1}优先关系及完整前沿}{6}{subsubsection.6.5.1}\protected@file@percent }
+\newlabel{eq:q1-weight}{{6.13}{6}{优先关系及完整前沿}{equation.13}{}}
+\newlabel{eq:q1-pt}{{6.14}{6}{优先关系及完整前沿}{equation.14}{}}
+\newlabel{eq:q1-pe}{{6.15}{6}{优先关系及完整前沿}{equation.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces 四种偏好规则与全局前沿点的对应关系}}{6}{table.caption.5}\protected@file@percent }
+\newlabel{tab:q1-rules}{{6.2}{6}{四种偏好规则与全局前沿点的对应关系}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 5\hskip 0.05em\relax .\hskip 0.05em\relax 2}权衡来自何处：S008 的局部替换}{6}{subsubsection.6.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces 完整 Pareto 前沿及偏好切换。左图以真实能耗和累计时间标出两个离散前沿点，架次数直接标注，不连接为可连续插值的方案。右图固定 $w_N=w_T=(1-w_E)/2$，展示高能耗权重区间内的理想点归一化加权偏离；两条曲线相交处为方案切换点。}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:q1-tradeoff}{{6.4}{7}{完整 Pareto 前沿及偏好切换。左图以真实能耗和累计时间标出两个离散前沿点，架次数直接标注，不连接为可连续插值的方案。右图固定 $w_N=w_T=(1-w_E)/2$，展示高能耗权重区间内的理想点归一化加权偏离；两条曲线相交处为方案切换点。}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces S008 的局部方案替换解释全局指标冲突。每个色块代表一个不可拆货箱，颜色依次对应医疗物资、饮用水、应急食品、生活卫生用品，与图~\ref {fig:q1-batches}一致；右侧为各架次实际能耗和累计作业时间。}}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:q1-local}{{6.5}{7}{S008 的局部方案替换解释全局指标冲突。每个色块代表一个不可拆货箱，颜色依次对应医疗物资、饮用水、应急食品、生活卫生用品，与图~\ref {fig:q1-batches}一致；右侧为各架次实际能耗和累计作业时间。}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 5\hskip 0.05em\relax .\hskip 0.05em\relax 3}权重切换边界与推荐的适用范围}{8}{subsubsection.6.5.3}\protected@file@percent }
+\newlabel{eq:q1-boundary}{{6.16}{8}{权重切换边界与推荐的适用范围}{equation.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 6}推荐组批结果与机型价值}{8}{subsection.6.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces 时间优先推荐方案的逐架次装载与代价}}{9}{table.caption.8}\protected@file@percent }
+\newlabel{tab:q1-plan}{{6.3}{9}{时间优先推荐方案的逐架次装载与代价}{table.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces 统一采用时间优先规则的机型可用集合比较}}{9}{table.caption.10}\protected@file@percent }
+\newlabel{tab:q1-policies}{{6.4}{9}{统一采用时间优先规则的机型可用集合比较}{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces 时间优先推荐方案的 18 个架次装载组成。每行对应一个架次，每个色块对应一个货箱，色块宽度按单箱质量确定，右侧标注该架次总载荷；行标签包含服务区、架次序号和机型。}}{10}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:q1-batches}{{6.6}{10}{时间优先推荐方案的 18 个架次装载组成。每行对应一个架次，每个色块对应一个货箱，色块宽度按单箱质量确定，右侧标注该架次总载荷；行标签包含服务区、架次序号和机型。}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces 五种机型可用集合在相同时间优先规则下的三指标比较。各集合均完整交付 80 箱；蓝色突出 A+B+C 推荐集合。各面板单位不同，不跨面板比较图上长度。}}{10}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:q1-policies}{{6.7}{10}{五种机型可用集合在相同时间优先规则下的三指标比较。各集合均完整交付 80 箱；蓝色突出 A+B+C 推荐集合。各面板单位不同，不跨面板比较图上长度。}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 7}返航安全余量变化的影响}{11}{subsection.6.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 7\hskip 0.05em\relax .\hskip 0.05em\relax 1}连续能力收缩与离散组批跳变}{11}{subsubsection.6.7.1}\protected@file@percent }
+\newlabel{eq:q1-reservelimits}{{6.17}{11}{连续能力收缩与离散组批跳变}{equation.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.5}{\ignorespaces 返航安全余量扫描的时间优先组批结果}}{11}{table.caption.12}\protected@file@percent }
+\newlabel{tab:q1-sensitivity}{{6.5}{11}{返航安全余量扫描的时间优先组批结果}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 7\hskip 0.05em\relax .\hskip 0.05em\relax 2}不可拆单箱决定完整配送的精确边界}{11}{subsubsection.6.7.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces 返航安全余量对完整配送三指标的影响。各点为间隔 0.01 的重新求解结果，连线仅引导阅读，不代表区间内线性变化；灰区为解析判定的不可完整配送区域，基准余量为 0.20。}}{12}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:q1-sensitivity}{{6.8}{12}{返航安全余量对完整配送三指标的影响。各点为间隔 0.01 的重新求解结果，连线仅引导阅读，不代表区间内线性变化；灰区为解析判定的不可完整配送区域，基准余量为 0.20。}{figure.caption.13}{}}
+\newlabel{eq:q1-rhostar}{{6.18}{12}{不可拆单箱决定完整配送的精确边界}{equation.18}{}}
+\newlabel{eq:q1-threshold}{{6.19}{12}{不可拆单箱决定完整配送的精确边界}{equation.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6\hskip 0.05em\relax .\hskip 0.05em\relax 8}结果核验与适用边界}{12}{subsection.6.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces S008 的载荷瓶颈与各服务区完整配送的解析边界。左图虚线表示单箱饮用水质量与全局临界余量；空载不可行后的机型曲线停止。右图以各区最难运输货箱的最佳机型能力确定上界，S008 构成全局瓶颈。}}{13}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:q1-reserve}{{6.9}{13}{S008 的载荷瓶颈与各服务区完整配送的解析边界。左图虚线表示单箱饮用水质量与全局临界余量；空载不可行后的机型曲线停止。右图以各区最难运输货箱的最佳机型能力确定上界，S008 构成全局瓶颈。}{figure.caption.14}{}}
+\ttl@finishall
+\gdef \@abspage@last{13}
